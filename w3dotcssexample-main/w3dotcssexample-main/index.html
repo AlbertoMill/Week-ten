@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>IHOP</title>
+        <!-- Need for responsive site-->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!-- Need in order to use w3.css-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- This is for w3.css javascript. We don't need this yet. -->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+        <!-- Need this for fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+
+        <!--Link to your own stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+  
+    <body>
+    <!-- Start Content -->
+        <div id="home" class="w3-content">  <!--w3-content-->
+
+            <!-- Navbar (Sits on top) -->
+            <div class="w3-top w3-bar w3-xlarge w3-black w3-opacity-min"> <!--w3-top w3-bar w3-xlarge w3-black w3-opacity-min-->
+                <a href="#home" class="w3-bar-item w3-button">HOME</a> <!---->
+                <a href="#menu" class="w3-bar-item w3-button">MENU</a> <!---->
+                <a href="#about" class="w3-bar-item w3-button">ABOUT</a> <!---->
+                <a href="#contact" class="w3-bar-item w3-button">CONTACT</a> <!---->
+                <a href="index.html" class="w3-red w3-bar-item w3-button">EXERCISE</a> <!---->
+                <a href="original.html" class="w3-blue w3-bar-item w3-button">ORIGINAL</a> <!---->
+            </div>
+            
+            <!-- Header image -->
+            <div style="height:800px;background-image:url('STUFF\ N\ SHIT/3970944718_de552a4299_c.jpg');background-size:cover"
+            class="w3-display-container w3-grayscale-min"> <!---->
+                <div class="w3-display-bottomleft"> <!---->
+                    <span class="w3-tag w3-xlarge">Open from 7am to 1pm</span> <!---->
+                </div>
+                <div class="w3-display-middle w3-center"> <!---->
+                    <span class="w3-text-white" style="font-size:100px">IHOP</span> <!---->
+                    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p> <!---->
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64"> <!---->
+                <h1 class="w3-center w3-jumbo w3-padding-32">Menu</h1> <!---->
+                <div class="w3-row w3-center w3-border w3-border-dark-grey"> <!---->
+                    <a href="#pizza"><div class="w3-third w3-padding-large w3-red">Appetizer</div></a> <!---->
+                    <a href="#pasta"><div class="w3-third w3-padding-large w3-hover-red">Combos</div></a> <!---->
+                    <a href="#starters"><div class="w3-third w3-padding-large w3-hover-red">Beverages</div></a> <!---->
+                </div>
+                <div id="pizza" class="w3-container w3-white w3-padding-32"> <!---->
+                    <h1><b>Ham & Cheese Omelette</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.00</span></h1> <!---->
+                    <p class="w3-text-grey">Ham, cheese, eggs</p> <!---->
+                    <hr>
+                    <h1><b>French Toast Breakfast</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.00</span></h1> <!---->
+                    <p class="w3-text-grey">Bacon, eggs, French Toast</p> <!---->
+                    <hr>
+                    <h1><b>House Scrambles</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.00</span></h1> <!---->
+                    <p class="w3-text-grey">Hashbrown, eggs, cheese</p> <!---->
+                </div>
+                <h1 id="pasta" class="w3-center w3-jumbo w3-padding-32">Combos</h1> <!---->
+                <div class="w3-cotnainer w3-white w3-padding-32"> <!---->
+                    <h1><b>Smokehouse Combo</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.89</span></h1> <!---->
+                    <p class="w3-text-grey">Pancakes, hashbrown, eggs, smoked sausage</p> <!---->
+                    <hr>
+                    <h1><b>Chicken & Pancakes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.79</span></h1> <!---->
+                    <p class="w3-text-grey">Chicken strips, chicken breast, pancakes</p> <!---->
+                    <hr>
+                    <h1><b>Breakfast Sampler</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1> <!---->
+                    <p class="w3-text-grey">Pancakes, sausage links, eggs, hashbrowns, bacon, ham</p> <!---->
+                </div>
+                <h1 id="starters" class="w3-center w3-jumbo w3-padding-32">Beverages</h1> <!---->
+                <div class="w3-container w3-white w3-padding-32"> <!---->
+                    <h1><b>Coffee</b> 
+                    <span class="w3-right w3-tag w3-dark-grey w3-round">$4.39</span></h1> <!---->
+                    <p class="w3-text-grey">Ask the waiter</p> <!---->
+                    <hr>
+                    <h1><b>Fruit Juice</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$5.99</span></h1> <!---->
+                    <p class="w3-text-grey">Orange, Apple</p> <!---->
+                    <hr>
+                    <h1><b>Fountain Drinks</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$5.29</span></h1> <!---->
+                    <p class="w3-text-grey">Pepsi, Diet Pepsi,Mountain Dew</p> <!---->
+                </div>
+            </div>
+
+            <!-- About -->
+            <div id="about" class="w3-container w3-red w3-grayscale w3-xlarge w3-padding-64"> <!---->
+                <h1 class="w3-center w3-jumbo">About</h1> <!---->
+                <p>IHOP is an American multinational pancake house restaurant chain that specializes in American breakfast foods. It is owned by Dine Brands, a company formed after IHOP's purchase of Applebee's, with 99% of the restaurants run by independent franchisees.</p>
+                    <img src="STUFF N SHIT/13657430005_a214b92851_b.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"> <!---->
+                </p>
+                <p>It truly is the House of Pancakes</p>
+                <p class="w3-padding-16 w3-stretch"> <!---->
+                    <img src="STUFF N SHIT/95338282_4d07341941_b.jpg" style="width:100%" alt="Restaurant">
+                </p>
+                <h1><b>Opening Hours</b></h1>
+                <div class="w3-row"> <!---->
+                    <div class="w3-half"> <!---->
+                        <p>Mon & Tue 7:00 - 10:00</p>
+                        <p>Wednesday 7:00 - 10:00</p>
+                        <p>Thursday 7:00 - 10:00</p>
+                    </div>
+                    <div class="w3-half"> <!---->
+                        <p>Friday 7:00 - 12:00</p>
+                        <p>Saturday 7:00 - 12:00</p>
+                        <p>Sunday 7:00 - 10:00</p>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- Contact -->
+            <img id="contact" src="STUFF N SHIT/1662123102_ccd4512990_b.jpg" class="w3-image w3-greyscale" alt="Map" style="width:100%"> <!---->
+            <div class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge w3-padding-top-32"> <!---->
+                <h1 class="w3-center w3-jumbo">Contact</h1> <!---->
+                <p>Find us at some address at some place or call us at (718) 659-6501</p>
+                <p>We offer full-service catering for any event, large or small. We understand your needs 
+                    and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                <p class="w3-xxlarge"><b>Reserve</b> a table, ask for today's special or just send us a message:</p> <!---->
+                <form action="/action_page.php" target="_blank">
+                    <p>
+                        <input class="w3-input w3-padding-16 w3-border" type="text" 
+                        placeholder="Name" required name="Name"> <!---->
+                    </p> 
+                    <p>
+                        <input class="w3-input w3-padding-16 w3-border" type="number" 
+                        placeholder="How many people" required name="People"> <!---->
+                    </p> <!---->
+                    <p>
+                        <input class="w3-input w3-padding-16 w3-border" type="datetime-local" 
+                        placeholder="Date and time" required name="date" value="2020-11-16T20:00"> <!---->
+                    </p>
+                    <p>
+                        <input class="w3-input w3-padding-16 w3-border" type="text" 
+                        placeholder="Message \ Special requirements" required name="Message"> <!---->
+                    </p>
+                    <p>
+                        <button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button> <!---->
+                    </p>
+                </form>
+                <p class="w3-center w3-xlarge w3-padding-32">Powered by <a href="https://www.w3schools.com/w3css/default.asp" 
+                    title="W3.CSS" target="_blank">w3.css</a> 
+                </p> <!---->
+            </div>
+
+        <!-- End Content -->
+        </div>
+    </body>
+</html>
